@@ -1,0 +1,9 @@
+Версия 0. Функция reversed()
+
+word = input()
+rev = reversed(word)
+
+if list(word) == list(rev):
+    print("True")
+else:
+    print("False")

@@ -1,0 +1,8 @@
+Версия 1. Метод нарезки списка
+
+word = input()
+
+if (word == word[::-1]):
+    print("True")
+else:
+    print("False")
